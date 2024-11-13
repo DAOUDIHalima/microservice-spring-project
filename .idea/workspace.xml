@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83fccc9c-4c14-4c6d-8a3f-3206cde37499" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/daoudi/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/org/daoudi/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/employee-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/DepartmentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/config/ModelMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/dto/DepartmentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/feign/EmployeeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/service/facade/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/department-service/src/test/java/org/daoudi/departmentservice/DepartmentServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/config/ModelMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/dto/EmployeeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/service/facade/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/department-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/department-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry-service/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/employee-service" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DAOUDIHalima&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DAOUDIHalima/microservice-spring-project.git&quot;,
+    &quot;accountId&quot;: &quot;add722bb-55e3-4396-a635-e33af36a296f&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2oUD5u0YAFnG5nzha53O4sHQdtY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in registry-service.executor": "Run",
+    "Maven.api-gateway [install].executor": "Run",
+    "Maven.config-server [install].executor": "Run",
+    "Maven.department-service [install].executor": "Run",
+    "Maven.employee-service [clean].executor": "Run",
+    "Maven.employee-service [install].executor": "Run",
+    "Maven.registry-service [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.DepartmentServiceApplication.executor": "Run",
+    "Spring Boot.EmployeeServiceApplication.executor": "Run",
+    "Spring Boot.RegistryServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/halim/Desktop/Project/microservice-spring-project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.daoudi.employeeservice.service.facade" />
+      <recent name="org.daoudi.departmentservice.repository" />
+      <recent name="org.daoudi.departmentservice.dto" />
+      <recent name="org.daoudi.departmentservice.service.facade" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="All in registry-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="registry-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.daoudi.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.daoudi.configserver.ConfigServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daoudi.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="department-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.daoudi.departmentservice.DepartmentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="employee-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.daoudi.employeeservice.EmployeeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="registry-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.daoudi.registryservice.RegistryServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daoudi.registryservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.RegistryServiceApplication" />
+        <item itemvalue="JUnit.All in registry-service" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83fccc9c-4c14-4c6d-8a3f-3206cde37499" name="Changes" comment="" />
+      <created>1730915081445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730915081445</updated>
+      <workItem from="1730915082703" duration="1928000" />
+      <workItem from="1730934334346" duration="5012000" />
+      <workItem from="1731000134020" duration="386000" />
+      <workItem from="1731100024404" duration="1298000" />
+      <workItem from="1731159485172" duration="7003000" />
+      <workItem from="1731168036088" duration="18900000" />
+      <workItem from="1731250722804" duration="11071000" />
+      <workItem from="1731327514812" duration="410000" />
+      <workItem from="1731442315399" duration="1436000" />
+      <workItem from="1731444144168" duration="9031000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
