@@ -1,0 +1,10 @@
+C:\Users\halim\Desktop\Project\microservice-spring-project\department-service\src\main\java\org\daoudi\departmentservice\config\ModelMapperConfig.java
+C:\Users\halim\Desktop\Project\microservice-spring-project\department-service\src\main\java\org\daoudi\departmentservice\controller\DepartmentController.java
+C:\Users\halim\Desktop\Project\microservice-spring-project\department-service\src\main\java\org\daoudi\departmentservice\DepartmentServiceApplication.java
+C:\Users\halim\Desktop\Project\microservice-spring-project\department-service\src\main\java\org\daoudi\departmentservice\dto\DepartmentDto.java
+C:\Users\halim\Desktop\Project\microservice-spring-project\department-service\src\main\java\org\daoudi\departmentservice\feign\EmployeeClient.java
+C:\Users\halim\Desktop\Project\microservice-spring-project\department-service\src\main\java\org\daoudi\departmentservice\model\Department.java
+C:\Users\halim\Desktop\Project\microservice-spring-project\department-service\src\main\java\org\daoudi\departmentservice\model\Employee.java
+C:\Users\halim\Desktop\Project\microservice-spring-project\department-service\src\main\java\org\daoudi\departmentservice\repository\DepartmentRepository.java
+C:\Users\halim\Desktop\Project\microservice-spring-project\department-service\src\main\java\org\daoudi\departmentservice\service\facade\DepartmentService.java
+C:\Users\halim\Desktop\Project\microservice-spring-project\department-service\src\main\java\org\daoudi\departmentservice\service\impl\DepartmentServiceImpl.java
