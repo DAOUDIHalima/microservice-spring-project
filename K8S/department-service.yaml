@@ -1,0 +1,35 @@
+# Deployment definition
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: department-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: department-service
+  template:
+    metadata:
+      labels:
+        app: department-service
+    spec:
+      containers:
+        - name: department-service
+          image: department-service
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8081
+
+---
+# Service definition
+apiVersion: v1
+kind: Service
+metadata:
+  name: department-service
+spec:
+  selector:
+    app: department-service
+  ports:
+    - port: 8081
+      targetPort: 8081
+  type: LoadBalancer

@@ -5,173 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83fccc9c-4c14-4c6d-8a3f-3206cde37499" name="Changes" comment="big commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/microservice-spring-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/daoudi/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/org/daoudi/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/api-gateway-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/api-gateway-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/org/daoudi/apigateway/ApiGatewayApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/surefire-reports/TEST-org.daoudi.apigateway.ApiGatewayApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/surefire-reports/org.daoudi.apigateway.ApiGatewayApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/test-classes/org/daoudi/apigateway/ApiGatewayApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/employee-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/config/department-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/config/employee-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/classes/org/daoudi/configserver/ConfigServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/surefire-reports/TEST-org.daoudi.configserver.ConfigServerApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/surefire-reports/org.daoudi.configserver.ConfigServerApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/target/test-classes/org/daoudi/configserver/ConfigServerApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/DepartmentServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/config/ModelMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/dto/DepartmentDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/feign/EmployeeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/model/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/repository/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/service/facade/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/org/daoudi/departmentservice/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/test/java/org/daoudi/departmentservice/DepartmentServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/classes/org/daoudi/departmentservice/DepartmentServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/classes/org/daoudi/departmentservice/config/ModelMapperConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/classes/org/daoudi/departmentservice/controller/DepartmentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/classes/org/daoudi/departmentservice/dto/DepartmentDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/classes/org/daoudi/departmentservice/feign/EmployeeClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/classes/org/daoudi/departmentservice/model/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/classes/org/daoudi/departmentservice/model/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/classes/org/daoudi/departmentservice/repository/DepartmentRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/classes/org/daoudi/departmentservice/service/facade/DepartmentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/classes/org/daoudi/departmentservice/service/impl/DepartmentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/department-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/department-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/surefire-reports/TEST-org.daoudi.departmentservice.DepartmentServiceApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/surefire-reports/org.daoudi.departmentservice.DepartmentServiceApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/target/test-classes/org/daoudi/departmentservice/DepartmentServiceApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/EmployeeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/config/ModelMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/dto/EmployeeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/service/facade/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/org/daoudi/employeeservice/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/test/java/org/daoudi/employeeservice/EmployeeServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/org/daoudi/employeeservice/EmployeeServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/org/daoudi/employeeservice/config/ModelMapperConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/org/daoudi/employeeservice/controller/EmployeeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/org/daoudi/employeeservice/dto/EmployeeDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/org/daoudi/employeeservice/model/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/org/daoudi/employeeservice/repository/EmployeeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/org/daoudi/employeeservice/service/facade/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/org/daoudi/employeeservice/service/impl/EmployeeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/employee-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/employee-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/surefire-reports/TEST-org.daoudi.employeeservice.EmployeeServiceApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/surefire-reports/org.daoudi.employeeservice.EmployeeServiceApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/test-classes/org/daoudi/employeeservice/EmployeeServiceApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/classes/org/daoudi/registryservice/RegistryServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/registry-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/registry-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/surefire-reports/TEST-org.daoudi.registryservice.RegistryServiceApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/surefire-reports/org.daoudi.registryservice.RegistryServiceApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry-service/target/test-classes/org/daoudi/registryservice/RegistryServiceApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/department-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/department-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registry-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registry-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K8S/api-gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/api-gateway.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K8S/config-server.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/config-server.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K8S/department-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/department-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K8S/employee-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/employee-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K8S/phpmyadmin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/phpmyadmin.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K8S/registry-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/registry-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/employee-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -198,7 +38,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/DAOUDIHalima/microservice-spring-project.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/DAOUDIHalima/DepartementManagementMicroserviceProject.git&quot;,
     &quot;accountId&quot;: &quot;add722bb-55e3-4396-a635-e33af36a296f&quot;
   }
 }</component>
@@ -236,16 +76,17 @@
     "Spring Boot.DepartmentServiceApplication.executor": "Run",
     "Spring Boot.EmployeeServiceApplication.executor": "Run",
     "Spring Boot.RegistryServiceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/halim/Desktop/Project/microservice-spring-project",
+    "last_opened_file_path": "C:/Users/halim/Desktop/Project/microservice-spring-project/employee-service/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -255,6 +96,14 @@
       <recent name="org.daoudi.departmentservice.repository" />
       <recent name="org.daoudi.departmentservice.dto" />
       <recent name="org.daoudi.departmentservice.service.facade" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\halim\Desktop\Project\microservice-spring-project\employee-service\src\main\resources" />
+      <recent name="C:\Users\halim\Desktop\Project\microservice-spring-project\employee-service" />
+      <recent name="C:\Users\halim\Desktop\Project\microservice-spring-project\K8S" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\halim\Desktop\Project\microservice-spring-project\employee-service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,7 +116,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.EmployeeServiceApplication">
     <configuration name="All in registry-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="registry-service" />
       <option name="PACKAGE_NAME" value="" />
@@ -323,10 +172,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.All in registry-service" />
+      <item itemvalue="Spring Boot.DepartmentServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.EmployeeServiceApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.RegistryServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.RegistryServiceApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="JUnit.All in registry-service" />
       </list>
     </recent_temporary>
@@ -356,8 +213,30 @@
       <workItem from="1731250722804" duration="11071000" />
       <workItem from="1731327514812" duration="410000" />
       <workItem from="1731442315399" duration="1436000" />
-      <workItem from="1731444144168" duration="9389000" />
+      <workItem from="1731444144168" duration="10351000" />
+      <workItem from="1731496764023" duration="7872000" />
+      <workItem from="1731714224625" duration="3078000" />
+      <workItem from="1731950915468" duration="9716000" />
+      <workItem from="1732058249043" duration="4402000" />
+      <workItem from="1732107473130" duration="3421000" />
+      <workItem from="1732319325523" duration="104000" />
+      <workItem from="1732319500503" duration="9899000" />
+      <workItem from="1732377979494" duration="2129000" />
+      <workItem from="1732380935062" duration="594000" />
+      <workItem from="1732405141638" duration="9718000" />
+      <workItem from="1732487954407" duration="7213000" />
+      <workItem from="1732555357509" duration="3365000" />
+      <workItem from="1732576852884" duration="4914000" />
     </task>
+    <task id="LOCAL-00001" summary="big commit">
+      <option name="closed" value="true" />
+      <created>1731458688962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731458688962</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

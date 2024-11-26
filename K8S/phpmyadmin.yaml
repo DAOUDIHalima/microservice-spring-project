@@ -21,9 +21,9 @@ spec:
             - containerPort: 80
           env:
             - name: PMA_HOST
-              value: spacedb
+              value: microservicedb
             - name: MYSQL_ROOT_PASSWORD
-              value: milkyway
+              value: root
 
 ---
 # Service definition

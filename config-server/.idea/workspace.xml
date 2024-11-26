@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3806447a-d8b5-452f-86a3-1012b03494c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daoudi/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/department-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/daoudi/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/api-gateway.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/config-server.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/department-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/grafana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/microservicedb.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/phpmyadmin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/registry-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/zipkin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../K8S/employee-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../K8S/employee-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../department-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../department-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../department-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../department-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../department-service/target/classes/org/daoudi/departmentservice/dto/DepartmentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../department-service/target/classes/org/daoudi/departmentservice/dto/DepartmentDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry-service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../registry-service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../registry-service/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +32,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DAOUDIHalima"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DAOUDIHalima/DepartementManagementMicroserviceProject.git",
+    "accountId": "add722bb-55e3-4396-a635-e33af36a296f"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -40,24 +62,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ConfigServerApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-server" />
@@ -86,6 +108,7 @@
       <workItem from="1730895308291" duration="3250000" />
       <workItem from="1730912863188" duration="677000" />
       <workItem from="1730914965127" duration="2000" />
+      <workItem from="1732313399609" duration="22000" />
     </task>
     <servers />
   </component>

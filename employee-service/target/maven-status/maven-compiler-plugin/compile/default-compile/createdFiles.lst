@@ -1,0 +1,8 @@
+org\daoudi\employeeservice\model\Employee.class
+org\daoudi\employeeservice\repository\EmployeeRepository.class
+org\daoudi\employeeservice\service\facade\EmployeeService.class
+org\daoudi\employeeservice\controller\EmployeeController.class
+org\daoudi\employeeservice\dto\EmployeeDto.class
+org\daoudi\employeeservice\EmployeeServiceApplication.class
+org\daoudi\employeeservice\config\ModelMapperConfig.class
+org\daoudi\employeeservice\service\impl\EmployeeServiceImpl.class

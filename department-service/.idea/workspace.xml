@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc3442c4-e231-4122-9ed5-3d17bda91a86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daoudi/departmentservice/DepartmentServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/daoudi/departmentservice/DepartmentServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/api-gateway.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/config-server.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/department-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/grafana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/microservicedb.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/phpmyadmin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/registry-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/zipkin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../K8S/employee-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../K8S/employee-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry-service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../registry-service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../registry-service/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +96,7 @@
       <updated>1730894849670</updated>
       <workItem from="1730894850908" duration="3570000" />
       <workItem from="1730912932669" duration="895000" />
+      <workItem from="1732313468724" duration="10000" />
     </task>
     <servers />
   </component>

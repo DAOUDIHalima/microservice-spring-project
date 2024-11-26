@@ -4,15 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac7b40c-4736-4fdd-8648-e27715d419fa" name="Changes" comment="" />
+    <list default="true" id="4ac7b40c-4736-4fdd-8648-e27715d419fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../K8S/api-gateway.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/config-server.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/department-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/grafana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/microservicedb.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/phpmyadmin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/registry-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../K8S/zipkin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../K8S/employee-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../K8S/employee-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../department-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../department-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../department-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../department-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../department-service/target/classes/org/daoudi/departmentservice/dto/DepartmentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../department-service/target/classes/org/daoudi/departmentservice/dto/DepartmentDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry-service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../registry-service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../registry-service/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DAOUDIHalima"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DAOUDIHalima/DepartementManagementMicroserviceProject.git",
+    "accountId": "add722bb-55e3-4396-a635-e33af36a296f"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -33,7 +66,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
@@ -58,6 +91,7 @@
       <updated>1731167867811</updated>
       <workItem from="1731167868908" duration="10000" />
       <workItem from="1731167955979" duration="53000" />
+      <workItem from="1732313423384" duration="40000" />
     </task>
     <servers />
   </component>

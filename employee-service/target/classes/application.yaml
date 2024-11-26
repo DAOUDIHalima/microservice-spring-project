@@ -1,12 +1,8 @@
 spring:
-  application:
-    name: employee-service
-  config:
-    import: "optional:configserver:http://localhost:8088"
   datasource:
-    url: jdbc:mysql://localhost:3306/employee-service?createDatabaseIfNotExist=true&useSSL=false
-    username: root
-    password:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/employee-service?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PASSWORD:}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
@@ -17,5 +13,6 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
   main:
     allow-circular-references: false
+
 server:
-  port: 8082
+  port: 8081
