@@ -1,0 +1,54 @@
+# Persistent Volumes definition
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: microservicedb-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 256Mi
+---
+# Deployment definition
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microservicedb
+spec:
+  selector:
+    matchLabels:
+      app: microservicedb
+  template:
+    metadata:
+      labels:
+        app: microservicedb
+    spec:
+      containers:
+        - name: microservicedb
+          image: mysql
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3306
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              value: root
+          volumeMounts:
+            - name: storage
+              mountPath: /var/lib/mysql
+      volumes:
+        - name: storage
+          persistentVolumeClaim:
+            claimName: microservicedb-pvc
+---
+# Service definition
+apiVersion: v1
+kind: Service
+metadata:
+  name: microservicedb
+spec:
+  selector:
+    app: microservicedb
+  ports:
+    - port: 3306
+      targetPort: 3306
