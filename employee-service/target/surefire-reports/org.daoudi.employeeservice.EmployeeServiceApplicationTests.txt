@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.daoudi.employeeservice.EmployeeServiceApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.35 s -- in org.daoudi.employeeservice.EmployeeServiceApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 76.47 s -- in org.daoudi.employeeservice.EmployeeServiceApplicationTests

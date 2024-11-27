@@ -1,0 +1,10 @@
+org\daoudi\departmentservice\feign\EmployeeClient.class
+org\daoudi\departmentservice\model\Department.class
+org\daoudi\departmentservice\model\Employee.class
+org\daoudi\departmentservice\service\impl\DepartmentServiceImpl.class
+org\daoudi\departmentservice\controller\DepartmentController.class
+org\daoudi\departmentservice\config\ModelMapperConfig.class
+org\daoudi\departmentservice\DepartmentServiceApplication.class
+org\daoudi\departmentservice\dto\DepartmentDto.class
+org\daoudi\departmentservice\repository\DepartmentRepository.class
+org\daoudi\departmentservice\service\facade\DepartmentService.class

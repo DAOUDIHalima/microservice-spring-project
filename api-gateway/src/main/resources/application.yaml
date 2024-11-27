@@ -1,13 +1,22 @@
 server:
   port: 8080
 
+
+
 eureka:
   client:
-    serviceUrl:
-      defaultZone: http://registry-service:8761/eureka
+    service-url:
+      defaultZone: http://${EUREKA_HOST:localhost}:8036/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+
+logging:
+  level:
+    com.netflix.discovery: DEBUG
 
 spring:
-
+  application:
+    name: api-gateway
   cloud:
     gateway:
       routes:

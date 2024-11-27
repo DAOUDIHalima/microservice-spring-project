@@ -11,11 +11,16 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
-  main:
-    allow-circular-references: false
 eureka:
   client:
     service-url:
-      defaultZone: http://registry-service:8761/eureka
+      defaultZone: http://localhost:8036/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+
+logging:
+  level:
+    com.netflix.discovery: DEBUG
+
 server:
   port: 8081

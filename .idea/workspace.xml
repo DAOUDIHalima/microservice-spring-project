@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83fccc9c-4c14-4c6d-8a3f-3206cde37499" name="Changes" comment="big commit">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K8S/api-gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/api-gateway.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K8S/config-server.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/config-server.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K8S/department-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/department-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K8S/employee-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/employee-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K8S/phpmyadmin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/phpmyadmin.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K8S/registry-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/K8S/registry-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,39 +52,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.All in registry-service.executor": "Run",
-    "Maven.api-gateway [install].executor": "Run",
-    "Maven.config-server [install].executor": "Run",
-    "Maven.department-service [install].executor": "Run",
-    "Maven.employee-service [clean].executor": "Run",
-    "Maven.employee-service [install].executor": "Run",
-    "Maven.registry-service [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.ConfigServerApplication.executor": "Run",
-    "Spring Boot.DepartmentServiceApplication.executor": "Run",
-    "Spring Boot.EmployeeServiceApplication.executor": "Run",
-    "Spring Boot.RegistryServiceApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/halim/Desktop/Project/microservice-spring-project/employee-service/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.All in registry-service.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api-gateway [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.config-server [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.department-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.department-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.employee-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.employee-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.registry-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.registry-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DepartmentServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EmployeeServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RegistryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/halim/Desktop/Project/microservice-spring-project/employee-service/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.daoudi.employeeservice.service.facade" />
@@ -103,6 +100,7 @@
       <recent name="C:\Users\halim\Desktop\Project\microservice-spring-project\K8S" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\halim\Desktop\Project\microservice-spring-project" />
       <recent name="C:\Users\halim\Desktop\Project\microservice-spring-project\employee-service" />
     </key>
   </component>
@@ -226,7 +224,11 @@
       <workItem from="1732405141638" duration="9718000" />
       <workItem from="1732487954407" duration="7213000" />
       <workItem from="1732555357509" duration="3365000" />
-      <workItem from="1732576852884" duration="4914000" />
+      <workItem from="1732576852884" duration="11171000" />
+      <workItem from="1732664441676" duration="3869000" />
+      <workItem from="1732716335446" duration="8036000" />
+      <workItem from="1732727551104" duration="4297000" />
+      <workItem from="1732735986610" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="big commit">
       <option name="closed" value="true" />
